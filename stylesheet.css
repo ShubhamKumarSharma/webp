@@ -1,0 +1,146 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+.wrap{
+    width: 100%;
+    float: left;
+
+}
+
+.main{
+
+    width: 100%;
+    height: 100vh;
+    background-color:gray;
+    position: relative;
+}
+
+.main h1{
+
+    position:absolute;
+    top:50%;
+    color: black;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+}
+
+
+.sidebar{
+    height:100vh;
+    width: 100px;
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+   // padding: 40px;
+
+}
+.ol{
+    width: 100px;
+    
+   
+}
+
+.button{
+    font-size: 50px;
+}
+   // .sidebar header{
+    background-color: gray;
+    
+    padding: 50px;
+    background: green;
+}
+
+.sidebar ul{
+    display: block;
+    margin-top: 50px;
+}
+.sidebar h1 {
+    font-size: 40px;
+}
+.ol2{
+   width: 70px;
+    border-width: 50px;
+    
+}
+
+.sidebar li{
+    //padding: 10px 0;
+     list-style: none;
+    //border-bottom: 1px solid black;
+    ***//border-top: 1px solid black;
+
+   // margin-bottom: 10px;
+}
+.sidebar ul li a{
+    color:black;
+    font-size: 10px;
+    text-decoration: none;
+}
+.ol3{
+
+    
+    width: 100%;
+    height: 100vh;
+    background-colo:white;
+    position: relative;
+    
+}
+
+
+input,textarea{
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:2px solid #dee7ec;
+
+    }
+    .hoo{
+        width:400px;
+        //margin-top:50px;
+        //margin-bottom:50px;
+        //padding:50px;
+        font-size:508px;
+        border:2px solid #dee7ec;
+
+    }
+    //.contents{
+        height:500px;
+        margin-top:100px;
+        margin-left:500px;
+        
+    }
+    
+    .contents p{
+       // padding: 50px;
+        font-size:24px;
+       // margin-right:30px;
+    }
+    
+    //.contents-item{
+        font-size: 508hf;
+        padding: 100px;
+        height: 500px;
+        margin-right:50px;
+        margin-left: 5opx;
+    }
+
+    .contents-item input{
+
+            width: 300px;
+            padding: 50px;
+            margin: 20px;
+        //height: 20vh;
+        margin-right:50px;
+        margin-left: 5opx;
+    }
